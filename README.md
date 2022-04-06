@@ -9,7 +9,19 @@ This repository holds a DDLm version of the imgCIF dictionary found in the
 main branch of that repository in this repository's main branch. This DDLm
 version may be used as a data name reference.
 
-# Deriving the DDLm version from the DDL2 version
+## `journals-extension` branch
+
+The `journals-extension` branch provides a DDLm imgCIf dictionary that includes 
+draft data names for referring to
+external data. IUCr journals plan to use these data names when publishing
+raw data. 
+
+Once these names have been merged into the main dictionary, this branch will be
+discontinued. The dictionary was derived from the DDL2 imgCIF version in branch
+`file-compression-type` of `https://github.com/jamesrhester/cbflib` (currently
+a pull request is pending for this on the main `cbflib` repository).
+
+## Deriving the DDLm version from the DDL2 version
 
 The DDLm version was automatically obtained from the DDL2 version by running the
 command:
