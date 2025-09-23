@@ -5801,7 +5801,7 @@ save_diffrn_data_frame.details
     _alias.definition_id          '_diffrn_frame_data.details'
     _alias.deprecation_date       .
     _alias.dictionary_uri
-;
+;\
 https://github.com/dials/cbflib/raw/refs/heads/main/doc/cif_img_1.4_4Jul06_draft.dic
 ;
     _definition.update            2025-09-23
@@ -10676,7 +10676,7 @@ save_diffrn_scan_frame_monitor.monitor_value
     _alias.definition_id          '_diffrn_scan_frame_monitor.value'
     _alias.deprecation_date       .
     _alias.dictionary_uri
-;
+;\
     https://github.com/dials/cbflib/raw/refs/heads/main/doc/cif_img_1.8.2.dic
 ;
     _definition.update            2025-09-23
